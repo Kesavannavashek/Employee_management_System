@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: black;
+  background: white;
+}
+
+@keyframes jump {
+
+  0%, 100% {
+    transform: translateY(-2%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+@keyframes move {
+
+  0% {
+    transform: translateX(0);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  100% {
+    transform: translateX(50%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .jump{
+    animation: jump 1s cubic-bezier(0.8, 0, 1, 1) infinite;
+  }
+  .move{
+animation: move 1s ease-in-out infinite;
+  }
+
+
+}

@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/TlDashboard/page": "app/TlDashboard/page.js",
+  "/managerdashboard/addmember/page": "app/managerdashboard/addmember/page.js",
+  "/employeeDashboard/page": "app/employeeDashboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/managerdashboard/addTL/page": "app/managerdashboard/addTL/page.js",
+  "/managerdashboard/addTask/page": "app/managerdashboard/addTask/page.js"
+}

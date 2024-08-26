@@ -1,0 +1,65 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/login/page.css",
+      "static/chunks/app/login/page.js"
+    ],
+    "/login/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/login/layout.js"
+    ],
+    "/managerdashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/managerdashboard/page.css",
+      "static/chunks/app/managerdashboard/page.js"
+    ],
+    "/managerdashboard/addTL/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/managerdashboard/addTL/page.css",
+      "static/chunks/app/managerdashboard/addTL/page.js"
+    ],
+    "/managerdashboard/addmember/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/managerdashboard/addmember/page.css",
+      "static/chunks/app/managerdashboard/addmember/page.js"
+    ],
+    "/managerdashboard/addTask/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/managerdashboard/addTask/page.css",
+      "static/chunks/app/managerdashboard/addTask/page.js"
+    ],
+    "/TlDashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/TlDashboard/page.js"
+    ],
+    "/employeeDashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/employeeDashboard/page.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+    ]
+  }
+}
