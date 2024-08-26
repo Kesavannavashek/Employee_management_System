@@ -7,7 +7,7 @@ export default function Home() {
 
 
   return (
-    <div className="relative">
+    <div  className="relative">
       <h1 className="md:text-4xl sm:text-5xl sm:leading-snug lg:text-6xl  lg:text-center lg:leading-snug text-4xl text-center my-3  font-black font-mono ">
         Welcome to{" "}
         <span className="lg:block lg:jump">Employee Management system</span>
